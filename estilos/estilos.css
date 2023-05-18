@@ -46,7 +46,34 @@ main .jumbotron {
 main .jumbotron p {
   font-size: 25px;
 }
+main .jumbotron h1, main .jumbotron p {
+  animation-name: difuminado;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
 
+@keyframes difuminado {
+  0% {
+    opacity: 0;
+    color: #d0ff00;
+  }
+  20% {
+    transform: translateY(300px);
+  }
+  40% {
+    color: #ffa600;
+  }
+  60% {
+    color: #ff5500;
+  }
+  90% {
+    color: #ff0062;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 footer {
   text-align: center;
   background-color: #000000;
