@@ -186,6 +186,36 @@ main div .caruselTexto {
   padding: 4px;
 }
 
+@media (max-width: 1466px) {
+  .header {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 1133px) {
+  .header {
+    font-size: 20px !important;
+  }
+  .texto1 {
+    font-size: 16px !important;
+  }
+  .texto2 {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 475px) {
+  .card {
+    grid-template-rows: 120px 90px 600px 100px;
+  }
+  .header {
+    font-size: 18px !important;
+  }
+  .texto1 {
+    font-size: 15px !important;
+  }
+  .texto2 {
+    font-size: 16px !important;
+  }
+}
 .formularioContacto {
   background-color: #000000;
   width: 500px;
