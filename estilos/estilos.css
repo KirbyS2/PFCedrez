@@ -89,7 +89,7 @@ main .slide h5 {
   font-weight: bold;
   color: #e08700;
   text-shadow: 0 0 5px #000000;
-  font-size: 30px;
+  font-size: 18px;
 }
 main .carousel-indicators, main .carousel-control-next-icon, main .carousel-control-prev-icon {
   background-color: #000000;
@@ -98,7 +98,7 @@ main .carousel-indicators, main .carousel-control-next-icon, main .carousel-cont
 }
 main .carousel-indicators {
   margin-top: 0;
-  border-radius: 0;
+  border-radius: 0px;
 }
 main div .caruselTexto {
   background-color: #000000;
@@ -106,6 +106,11 @@ main div .caruselTexto {
   padding: 0;
 }
 
+@media (max-width: 475px) {
+  .caruselTexto {
+    font-size: 10px;
+  }
+}
 .card {
   display: grid;
   width: 100%;

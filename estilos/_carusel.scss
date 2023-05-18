@@ -7,7 +7,7 @@ main{
             font-weight: bold;
             color: #e08700;
             text-shadow: 0 0 5px #000000;
-            font-size: 30px;
+            font-size: 18px;
         }
     }
     .carousel-indicators, .carousel-control-next-icon, .carousel-control-prev-icon{
@@ -17,7 +17,7 @@ main{
     }
     .carousel-indicators{
         margin-top: 0;
-        border-radius: 0;
+        border-radius: 0px;
     }
     div{
         .caruselTexto{
@@ -25,5 +25,10 @@ main{
             margin: 0;
             padding: 0;
         }
+    }
+}
+@media (max-width: 475px){
+    .caruselTexto{
+        font-size: 10px;
     }
 }
