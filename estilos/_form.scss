@@ -12,7 +12,7 @@ $blanco:#ffffff;
     flex-wrap: nowrap;
 }
 .formularioContacto{
-    background-color: rgb(0, 0, 0);
+    background-color: $negro;
     width: 500px;
     margin: 0 auto;
     position: relative;
@@ -65,5 +65,10 @@ $blanco:#ffffff;
                 color: $negro;
             }
         }
+    }
+}
+@media (max-width:520px){
+    .formularioContacto{
+        width: 320px !important;
     }
 }
