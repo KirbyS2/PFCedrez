@@ -1,3 +1,16 @@
+$font1:20px;
+$font2:40px;
+
+$naranja:#e08700;
+$negro:#000000;
+$gris:#363230;
+$blanco:#ffffff;
+
+@mixin flex-row-nowrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 main{
     .slide{
         img{
@@ -5,14 +18,14 @@ main{
         }
         h5{
             font-weight: bold;
-            color: #e08700;
-            text-shadow: 0 0 5px #000000;
+            color: $naranja;
+            text-shadow: 0 0 5px $negro;
             font-size: 18px;
         }
     }
     .carousel-indicators, .carousel-control-next-icon, .carousel-control-prev-icon{
-        background-color: #000000;
-        text-shadow: 0 0 5px #000000;
+        background-color: $negro;
+        text-shadow: 0 0 5px $negro;
         border-radius: 5px;
     }
     .carousel-indicators{
@@ -21,7 +34,7 @@ main{
     }
     div{
         .caruselTexto{
-            background-color: #000000;
+            background-color: $negro;
             margin: 0;
             padding: 0;
         }

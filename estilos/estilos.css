@@ -5,18 +5,18 @@
 }
 
 body {
-  background-color: black;
+  background-color: #000000;
 }
 
 .navbar {
-  background-color: black;
+  background-color: #000000;
 }
 .navbar .navbar-brand {
   font-size: 20px;
   font-weight: bold;
 }
 .navbar .navbar-brand .logo {
-  color: orange !important;
+  color: #e08700 !important;
 }
 .navbar .nav-link:hover {
   text-shadow: 0 0 5px #e08700, 0 0 5px #e08700;
@@ -41,6 +41,7 @@ main .jumbotron {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-bottom: 0;
   border-radius: 0;
+  overflow: hidden;
 }
 main .jumbotron p {
   font-size: 25px;
@@ -82,6 +83,19 @@ footer .redes a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+@media (max-width: 400px) {
+  .bienvenida {
+    font-size: 22px !important;
+  }
+}
+@media (max-width: 436px) {
+  .redes a {
+    font-size: 25px !important;
+  }
+  footer h3 {
+    font-size: 17px;
+  }
+}
 main .slide img {
   height: 90vh;
 }
