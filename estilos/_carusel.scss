@@ -1,0 +1,29 @@
+main{
+    .slide{
+        img{
+            height: 90vh;
+        }
+        h5{
+            font-weight: bold;
+            color: #e08700;
+            text-shadow: 0 0 5px #000000;
+            font-size: 30px;
+        }
+    }
+    .carousel-indicators, .carousel-control-next-icon, .carousel-control-prev-icon{
+        background-color: #000000;
+        text-shadow: 0 0 5px #000000;
+        border-radius: 5px;
+    }
+    .carousel-indicators{
+        margin-top: 0;
+        border-radius: 0;
+    }
+    div{
+        .caruselTexto{
+            background-color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

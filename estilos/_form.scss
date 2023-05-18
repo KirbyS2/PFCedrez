@@ -1,0 +1,56 @@
+.formularioContacto{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 16%;
+    border-radius: 10px;
+    .headerContacto{
+        width: 100%;
+        display: block;
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 100px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .contacto{
+        padding: 12px;
+        overflow: hidden;
+        color: #363230;
+        input:not([type='submit']), textarea{
+            border: none;
+            border-bottom: 1px solid #363230;
+            outline: none;
+            font-size: 20px;
+            margin-bottom: 10px;
+            background-color: #363230;
+            color: #ffffff;
+        }
+        input:hover, textarea:hover{
+            background-color: #e08700;
+            transition: all .3s ease-in-out;
+        }
+        label, input, textarea{
+            display: block;
+            width: 100%;
+        }
+        label{
+            color: #e08700;
+        }
+        textarea{
+            min-height: 100px;
+        }
+        .enviar{
+            padding: 10px;
+            font-size: 20px;
+            background-color: #000000;
+            border: none;
+            color: #e08700;
+            &:hover{
+                color: #000000;
+            }
+        }
+    }
+}

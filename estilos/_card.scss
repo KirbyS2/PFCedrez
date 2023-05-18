@@ -1,0 +1,64 @@
+.card{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 80%;
+    grid-template-rows: 100px 70px 600px 100px;
+    grid-template-areas: 
+    "header"
+    "texto1"
+    "videoVG"
+    "texto2";
+    background-color: #363230;
+    justify-content: center;
+    text-align: center;
+    color: #e08700;
+    row-gap: 0;
+    .videoVG{
+        grid-area: videoVG;
+        width: 100%;
+        height:600px;
+    }
+    .header{
+        grid-area: header;
+        font-size: 40px;
+        border: 1px solid #e08700;
+        border-bottom: none;
+        margin-bottom: 0;
+        margin-top: 20px;
+        background-color: #000000;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .texto1{
+        grid-area: texto1;
+        font-size: 20px;
+        border: 1px solid #e08700;
+        border-top: none;
+        margin-top: 0;
+        background-color: #000000;
+        padding-top: 5px;
+        border-radius: 10px;
+    }
+    .texto2{
+        grid-area: texto2;
+        font-size: 25px;
+        padding-top: 5px;
+        margin-bottom: 10px;
+    }
+    .boton{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        .textocontacto{
+            width: 80%;
+            background-color: #000000;
+            border: 1px solid #e08700;
+            border-radius: 10px;
+            padding: 4px;
+        }
+    }
+}
