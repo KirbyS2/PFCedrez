@@ -67,8 +67,13 @@ $blanco:#ffffff;
         }
     }
 }
-@media (max-width:520px){
+@media (max-width:580px){
     .formularioContacto{
-        width: 320px !important;
+        width: 300px !important;
+    }
+}
+@media (max-width:340px){
+    .formularioContacto{
+        width: 250px !important;
     }
 }
